@@ -1,0 +1,49 @@
+page{
+  background-color: #ddd;
+}
+
+/* 轮播图样式 */
+swiper {
+  height: 380rpx;
+}
+swiper swiper-item image{
+  width: 100%;
+}
+
+/* 分类  九宫格 */
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+.grid .grid-item {
+  width: 250rpx;
+  height: 250rpx;
+  border-right: 1rpx solid #ccc;
+  border-bottom: 1rpx solid #ccc;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.grid .grid-item image{
+  width: 80rpx;
+  height: 80rpx;
+}
+
+/* 友情链接 */
+.link{
+  height: 200rpx;
+  background-color: #fff;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.link image {
+  width: 300rpx;
+  height: 180rpx;
+}
